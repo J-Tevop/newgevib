@@ -1,0 +1,37 @@
+.header {
+  height: 7rem;
+  width: 85%;
+  position: relative;
+  margin: auto;
+}
+
+.navbar {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  background: linear-gradient(
+    to right,
+    $nav-color-begin,
+    $nav-color-middle,
+    $nav-color-end
+  );
+}
+
+.navContainer {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  //   @media screen and (min-width: $desktop-breakpoint) {
+  //     justify-content: space-between;
+  //   }
+}
+
+.companyLogo {
+  top: 2rem;
+  height: 9rem;
+  width: 9rem;
+  position: relative;
+  @media only screen and (max-width: $mobile-breakpoint) {
+    display: none;
+  }
+}
